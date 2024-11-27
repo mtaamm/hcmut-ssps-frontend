@@ -6,7 +6,7 @@ import Sidebar from "./Sidebar";
 
 const Layout: React.FC = () => {
   const navigate = useNavigate();
-  const user = { id: 1, role: "student" }; // User giả để kiểm tra layout
+  const user = { id: 1, role: "spso" }; // User giả để kiểm tra layout
 
   useEffect(() => {
     // Điều hướng nếu không có user (chưa đăng nhập)

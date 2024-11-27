@@ -48,6 +48,10 @@ const spsoRoutes: RouteObject[] = [
     path: "manage-activities",
     lazy: lazy(() => import("./pages/activities/ManageActivities")),
   },
+  {
+    path: "manage-student-activity/:id",
+    lazy: lazy(() => import("./pages/activities/ManageStudent")),
+  },
 ];
 
 // Route tổng hợp với layout (Bọc tất cả route bên trong Layout)
